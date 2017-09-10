@@ -1,0 +1,32 @@
+Address the project in Mac : 
+	/Users/janjiraeriksson/eclipse-workspace/springframwork1
+	
+Add dependencies : 
+    <!-- https://mvnrepository.com/artifact/org.springframework/spring-context -->
+	<dependency>
+	    <groupId>org.springframework</groupId>
+	    <artifactId>spring-context</artifactId>
+	    <version>4.3.9.RELEASE</version>
+	</dependency>
+	<!-- https://mvnrepository.com/artifact/org.springframework/spring-core -->
+	<dependency>
+	    <groupId>org.springframework</groupId>
+	    <artifactId>spring-core</artifactId>
+	    <version>4.3.9.RELEASE</version>
+	</dependency>
+	<!-- https://mvnrepository.com/artifact/org.springframework/spring-beans -->
+	<dependency>
+	    <groupId>org.springframework</groupId>
+	    <artifactId>spring-beans</artifactId>
+	    <version>4.3.9.RELEASE</version>
+	</dependency> 
+	
+create beans.xml : 
+	- Right click the project
+	- Select New > Spring Beans Configuration File
+	- Give name beans.xml
+	- Open beans.xml and select tab beans 
+	- Click New Bean...
+	- Brows Person class
+	- give id person 
+	
