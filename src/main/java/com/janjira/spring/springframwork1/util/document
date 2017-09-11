@@ -29,4 +29,12 @@ create beans.xml :
 	- Click New Bean...
 	- Brows Person class
 	- give id person 
+
+Set value of beans :
+	- Click beans.xml 
+	- Right click on beans > peson 
+	- Insert <constructor arg> element 
+	- put value : 777 
+	- Insert <constructor arg> element agin for put value of name 
+	
 	
