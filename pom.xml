@@ -3,11 +3,11 @@
   <modelVersion>4.0.0</modelVersion>
 
   <groupId>com.janjira.spring</groupId>
-  <artifactId>springframwork1</artifactId>
+  <artifactId>springframwork</artifactId>
   <version>0.0.1-SNAPSHOT</version>
   <packaging>jar</packaging>
 
-  <name>springframwork1</name>
+  <name>springframwork</name>
   <url>http://maven.apache.org</url>
 
   <properties>

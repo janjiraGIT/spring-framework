@@ -8,9 +8,13 @@ public class App {
     		// read beans.xml 
     		ApplicationContext context = new ClassPathXmlApplicationContext("com/janjira/spring/springframwork1/beans/beans.xml");
     		Person person = (Person) context.getBean("person");
+    		
     		person.speak();
     		
+    		Address address = (Address) context.getBean("address");
+    		
     		System.out.println(person);
+    		System.out.println(address);
     		
     		((ClassPathXmlApplicationContext)context).close();
     }

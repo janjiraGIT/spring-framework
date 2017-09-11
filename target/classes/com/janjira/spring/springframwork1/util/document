@@ -37,4 +37,27 @@ Set value of beans :
 	- put value : 777 
 	- Insert <constructor arg> element agin for put value of name 
 	
+Property :
+	- Click beans.xml 
+	- Right click on beans > peson 
+	- Insert <proparty> element 
+	- put value : 777 
+	- Insert <constructor arg> element agin for put value of name 
+	- write name:texId 
+	- write value:300
+
+Dependency Injection : 
+	- create another bean Address class add 
+	- Add new bean in GUI 
+	- add constructor-arg 
+	- add value name , value 
+	- add constructor-are postcode
+	- add value postcode , value
+	- add Address in Person 
+	- update address in constructor and set and toString
+	- Inject address in the person 
+	- add property in person beans 
+	- add ref:address , name:address (set)
+	
+	
 	

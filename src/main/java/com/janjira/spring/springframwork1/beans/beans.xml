@@ -2,11 +2,17 @@
 <beans xmlns="http://www.springframework.org/schema/beans"
 	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
 	xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
-	<bean id="person"
-		class="com.janjira.spring.springframwork1.Person">
-	
-	<constructor-arg value="777" index="0" name="id"></constructor-arg>
-	<constructor-arg value="Janjira" index="1" name="name"></constructor-arg>
-	<property name="taxId" value="300"></property>
+
+	<bean id="person" class="com.janjira.spring.springframwork1.Person">
+		<constructor-arg value="777" name="id"></constructor-arg>
+		<constructor-arg value="Janjira" name="name"></constructor-arg>
+		<property name="taxId" value="300"></property>
+		<property name="address" ref="address"></property>
+	</bean>
+
+
+	<bean id="address" class="com.janjira.spring.springframwork1.Address">
+		<constructor-arg name="stress" value="monsungatan"></constructor-arg>
+		<constructor-arg name="postcode" value="4789"></constructor-arg>
 	</bean>
 </beans>
